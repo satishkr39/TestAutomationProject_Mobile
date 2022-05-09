@@ -1,0 +1,72 @@
+{
+  "name": "TestAutomationProject10",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.MobileAutomation.Activities": "[21.10.3]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.Testing.Activities": "[1.4.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0b85bf54-1c2c-4b12-a4e6-b65c70ed2aae",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ea8293e9-d526-45a6-ad8f-12a3c0166b4b",
+        "fileName": "TestiOS13ForTheApp.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c04c6591-dfc2-49e8-be78-f118645d07c6",
+        "fileName": "TestAndroid_UiBank.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6d4df8fc-e6db-4114-813f-0e6b450dbbc0",
+        "dataVariationFilePath": ".variations\\Data_DataDriven_Sheet1.json",
+        "fileName": "Android_iOS_DD_Test.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

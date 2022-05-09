@@ -1,0 +1,178 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Google Pixel 3a GoogleAPI Emulator",
+      "Description": null,
+      "Url": " https://venkata.raju:fa4aa038-35f0-4c33-a1f7-44eba72e4e57@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "11.0",
+      "DeviceName": "Google Pixel 3a GoogleAPI Emulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "iPhone 13 Pro Max Simulator",
+      "Description": null,
+      "Url": "https://venkata.raju:fa4aa038-35f0-4c33-a1f7-44eba72e4e57@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "iOS",
+      "PlatformVersion": "15.0",
+      "DeviceName": "iPhone 13 Pro Max Simulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "Samsung Galaxy S9 HD GoogleAPI Emulator",
+      "Description": null,
+      "Url": " https://venkata.raju:fa4aa038-35f0-4c33-a1f7-44eba72e4e57@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "9.0",
+      "DeviceName": "Samsung Galaxy S9 HD GoogleAPI Emulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": true,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "Google Pixel 4a (5G) GoogleAPI Emulator",
+      "Description": null,
+      "Url": "https://meera.kannan:c8e37f6f-9bb6-423c-a39f-34460a807f94@ondemand.us-west-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "12.0",
+      "DeviceName": "Google Pixel 4a (5G) GoogleAPI Emulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "iPhone 11 Simulator",
+      "Description": null,
+      "Url": "https://venkata.raju:fa4aa038-35f0-4c33-a1f7-44eba72e4e57@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "iOS",
+      "PlatformVersion": "15.4",
+      "DeviceName": "iPhone 11 Simulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "TheApp",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.apk",
+            "appActivity": ".MainActivity",
+            "appPackage": "io.cloudgrey.the_app"
+          },
+          "StartPage": null
+        },
+        "iOS": {
+          "Capabilities": {
+            "app": "https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.ipa"
+          },
+          "StartPage": null
+        }
+      }
+    },
+    {
+      "$id": "2",
+      "Name": "UiBank Loan",
+      "Description": null,
+      "Type": "Web",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "browserName": "Chrome"
+          },
+          "StartPage": "https://uibank.uipath.com/loans"
+        },
+        "iOS": {
+          "Capabilities": {
+            "browserName": "Safari"
+          },
+          "StartPage": "https://uibank.uipath.com/loans"
+        }
+      }
+    },
+    {
+      "$id": "3",
+      "Name": "UiBank Loan New",
+      "Description": null,
+      "Type": "Web",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "browserName": "Chrome"
+          },
+          "StartPage": "https://uibank.uipath.com/loans-updated"
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}
